@@ -1,1 +1,1 @@
-web: node nodemon
+web: yarn nodemon
