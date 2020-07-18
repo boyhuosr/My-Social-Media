@@ -1,0 +1,16 @@
+{
+    "presets": [
+        ["@babel/preset-env",
+            {
+                "targets": {
+                    "node": "current"
+                }
+            }
+        ],
+        //to transpile React
+        "@babel/preset-react"
+        ],
+        "plugins": [
+            "react-hot-loader/babel"
+        ]
+    }
