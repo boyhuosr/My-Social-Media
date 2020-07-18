@@ -9,11 +9,7 @@
     "start": "NODE_ENV=production node ./dist/server.generated.js"
   },
   "devDependencies": {
-    "@babel/core": "7.9.0",
-    "@babel/preset-env": "7.9.0",
-    "@babel/preset-react": "7.9.4",
-    "babel-loader": "8.1.0",
-    "file-loader": "6.0.0"
+    
     
     
     
@@ -43,6 +39,11 @@
     "webpack-cli": "3.3.11",
     "webpack-dev-middleware": "3.7.2",
     "webpack-hot-middleware": "2.25.0",
-    "webpack-node-externals": "1.7.2"
+    "webpack-node-externals": "1.7.2",
+    "@babel/core": "7.9.0",
+    "@babel/preset-env": "7.9.0",
+    "@babel/preset-react": "7.9.4",
+    "babel-loader": "8.1.0",
+    "file-loader": "6.0.0"
   }
 }
