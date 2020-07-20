@@ -5,7 +5,7 @@ import mongoose from 'mongoose'
 mongoose.Promise = global.Promise
 
 // Database Connection URL
-const url = process.env.MONGODB_URI || 'mongodb+srv://myBlog:7bkUXkELZNmE9hn2@cluster0-tovqa.azure.mongodb.net/myBlog?retryWrites=true&w=majority';
+const url = process.env.MONGODB_URI || 'mongodb+srv://kai:111222333@cluster0.erhaa.azure.mongodb.net/users?retryWrites=true&w=majority';
 
 mongoose.connect(url, { 
     useNewUrlParser: true,

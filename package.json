@@ -9,10 +9,7 @@
     "start": "NODE_ENV=production node ./dist/server.generated.js"
   },
   "devDependencies": {
-    
-    
-    
-    
+ 
   },
   "dependencies": {
     "@hot-loader/react-dom": "16.13.0",

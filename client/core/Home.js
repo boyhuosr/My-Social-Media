@@ -4,7 +4,7 @@ import Card from '@material-ui/core/Card'
 import CardContent from '@material-ui/core/CardContent'
 import CardMedia from '@material-ui/core/CardMedia'
 import Typography from '@material-ui/core/Typography'
-import unicornbikeImg from './../assets/images/unicornbike.jpg'
+import fantasy from './../assets/images/fantasy.jpg'
 
 const useStyles = makeStyles(theme => ({
     card: {
@@ -28,10 +28,10 @@ export default function Home(){
             <Typography variant="h6" className={classes.title}>
                 Home Page
             </Typography>
-            <CardMedia className={classes.media} image={unicornbikeImg} title="Unicorn Bicycle"/>
+            <CardMedia className={classes.media} image={fantasy} title="fantasy"/>
             <CardContent>
                 <Typography variant="body2" component="p">
-                    Welcome to the MERN Skeleton home page.
+                    Welcome to the Kai's Social Media home page.
                 </Typography>
             </CardContent>
         </Card>
